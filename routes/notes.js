@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 
 const { MongoClient } = require("mongodb");
-const uri = "mongodb+srv://2201130060ch:newborn1983@cluster0.tfnbblc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+const uri = "****************************";
 const client = new MongoClient(uri);
 
 router.get('/', async (req, res) => {
